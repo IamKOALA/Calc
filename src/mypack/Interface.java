@@ -21,6 +21,8 @@ public class Interface {
 
         System.out.println("3. Division");
 
+        System.out.println("4. Power in 2");
+
         System.out.println("7. Show history");
 
         System.out.println("8. Clear result");
@@ -75,6 +77,19 @@ public class Interface {
             double num = scanner.nextInt();
 
             double res = calc.div(num);
+
+            calcHistory.add(res);
+
+            System.out.println(res);
+
+            int next = scanner.nextInt();
+            selectOption(next);
+        }
+
+        else if (opt == 4) {
+            double num = scanner.nextInt();
+
+            double res = calc.pow2(num);
 
             calcHistory.add(res);
 

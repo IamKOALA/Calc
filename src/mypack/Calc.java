@@ -55,6 +55,11 @@ public class Calc {
         return curRes;
     }
 
+    public double pow2(double num) {
+        curRes = Math.pow(num, 2);
+        return curRes;
+    }
+
     /**
      * @return current result
      */
