@@ -60,6 +60,16 @@ public class Calc {
         return curRes;
     }
 
+    public double pow3(double num) {
+        curRes = Math.pow(num, 3);
+        return curRes;
+    }
+
+    public double sqrt(double num) {
+        curRes = Math.sqrt(num);
+        return curRes;
+    }
+
     /**
      * @return current result
      */
