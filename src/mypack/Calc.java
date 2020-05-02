@@ -6,6 +6,7 @@ public class Calc {
 
     /**
      * setting current result
+     *
      * @param cur_res
      */
     public void setCur_res(double cur_res) {
@@ -14,6 +15,7 @@ public class Calc {
 
     /**
      * setting current number
+     *
      * @param num
      */
     public void setNum(double num) {
@@ -22,6 +24,7 @@ public class Calc {
 
     /**
      * adding number to current result
+     *
      * @param num
      * @return current result
      */
@@ -32,6 +35,7 @@ public class Calc {
 
     /**
      * multiplying number to current result
+     *
      * @param num
      * @return current result
      */
@@ -42,6 +46,7 @@ public class Calc {
 
     /**
      * dividing current result by number
+     *
      * @param num
      * @return current result
      */
@@ -50,8 +55,12 @@ public class Calc {
         return curRes;
     }
 
+    public double pow2(double num) {
+        curRes = Math.pow(num, 2);
+        return curRes;
+    }
+
     /**
-     *
      * @return current result
      */
     public double printRes() {
