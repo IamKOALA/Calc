@@ -114,6 +114,19 @@ public class Interface {
             selectOption(next);
         }
 
+        else if (opt == 6) {
+            double num = scanner.nextInt();
+
+            double res = calc.sqrt(num);
+
+            calcHistory.add(res);
+
+            System.out.println(res);
+
+            int next = scanner.nextInt();
+            selectOption(next);
+        }
+
         else if (opt == 7) {
             calcHistory.show();
 

@@ -65,6 +65,11 @@ public class Calc {
         return curRes;
     }
 
+    public double sqrt(double num) {
+        curRes = Math.sqrt(num);
+        return curRes;
+    }
+
     /**
      * @return current result
      */
