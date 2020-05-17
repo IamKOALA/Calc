@@ -13,6 +13,8 @@ public class Interface {
     Interface() {
         System.out.println("Welcome to calculator!");
 
+        System.out.println("It was created using GitKraken");
+
         System.out.println("You have 3 operations:");
 
         System.out.println("1. Addition");
